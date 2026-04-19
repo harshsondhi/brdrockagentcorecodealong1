@@ -1,0 +1,13 @@
+[project]
+name = "harshws"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bedrock-agentcore>=1.6.2",
+    "bedrock-agentcore-starter-toolkit>=0.3.5",
+    "boto3>=1.42.89",
+    "openai==1.107.1",
+    "openai-agents==0.2.11",
+]

@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.mypy_cache/
+
+# Generated runtime/build artifacts
+**/.bedrock_agentcore/
+**/dependencies.zip
+**/dependencies.hash
+*.log
+
+# macOS / editor clutter
+.DS_Store
+.idea/
+.vscode/
+
+# Virtual environments
+.venv
+.env
+
+# Environment and secrets
+.env.*
+!.env.example
+*.env
+*.local
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.tfvars
+*.token
+
+# Local cloud credentials
+.aws/
+
+# Local notes that contain pasted tokens/passwords
+readme0.txt

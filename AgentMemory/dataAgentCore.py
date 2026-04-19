@@ -142,7 +142,7 @@ from agents import (
 
 session = AgentCoreSession(
     session_id="my_session_id_123456789012345678901234567890123",  # Must be 33+ char. Every new SessionId will create a new MicroVMm
-    memory_id="memory_9vhl0-g7l104Ckyv",
+    memory_id="memory_123456789",
     actor_id="app/harsh-1234567890123456789012345678901234",  # Must be 33+ char
     region="us-west-2",
 )
